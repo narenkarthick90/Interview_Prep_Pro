@@ -1,0 +1,219 @@
+# AI-Powered Lean Manufacturing RCA System - .gitignore
+
+# ==================== Python ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# ==================== IDEs ====================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ==================== AI Models ====================
+# Large model files (download separately, don't commit)
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pkl
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+
+# ==================== Data Files ====================
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+manufacturing_rca.db
+
+# CSV/Excel data files
+data/
+*.csv
+*.xlsx
+*.xls
+
+# PDF manuals (can be large)
+equipment_manuals/
+manuals/
+*.pdf
+
+# Images
+uploads/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# ==================== Streamlit ====================
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Streamlit cache
+.streamlit/cache/
+
+# ==================== Environment Variables ====================
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys
+api_keys.txt
+secrets.json
+config.json
+
+# ==================== Logs ====================
+logs/
+*.log
+log.txt
+
+# ==================== OS Specific ====================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# ==================== Backup Files ====================
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+backup/
+
+# ==================== Documentation ====================
+# Sphinx documentation
+docs/_build/
+site/
+
+# ==================== Project Specific ====================
+# Temporary incident reports
+temp_reports/
+temp/
+
+# Test data
+test_data/
+test_output/
+
+# User uploaded files
+user_uploads/
+
+# Archived incidents
+archive/
+
+# Performance metrics
+metrics/
+*.metrics
+
+# ==================== Misc ====================
+.vscode-server/
+*.pid
+*.seed
+*.pid.lock
